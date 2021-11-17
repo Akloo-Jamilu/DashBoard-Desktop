@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+}
+
+i {
+    cursor: pointer;
+    color: #666666;
+}
+
+h1 {
+    color: #666666;
+}
+
+h3 {
+    padding-bottom: 10px;
+    color: forestgreen;
+    font-size: .9rem;
+    opacity: 95%;
+}
+
+h4 {
+    /* color: forestgreen; */
+}
+
+h6 {
+    padding-bottom: 20px;
+}
+
+img {
+    height: 60px;
+    border-radius: 70%;
+    /* border: 3px solid forestgreen; */
+    /* border-bottom: 3px solid white;
+    border-top: 3px solid white; */
+}
+
+.topNav img {
+    /* border: 1px solid forestgreen; */
+    height: 40px;
+    border-radius: 70%;
+    /* border-bottom: 2px solid white; */
+}
+
+.floatRight img {
+    height: 20px;
+    border-radius: 70%;
+}
+
+#container {
+    display: table;
+    background: #ced4da;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+aside {
+    font-size: 1.1rem;
+    background: #f8f9fac9;
+    width: 20%;
+    height: 100vh;
+    border-radius: 0px 20px 20px 0;
+    box-shadow: 5px 5px 20px 5px #ced4da;
+    border: none;
+    display: table-cell;
+}
+
+.aside i {
+    /* color: #666666; */
+    cursor: pointer;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.aside li {
+    padding-left: 20px;
+}
+
+.aside li a,
+.center a {
+    text-decoration: none;
+}
+
+.down {
+    padding-top: 25rem;
+}
+
+.up {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.smallDown {
+    padding-top: 20px;
+}
+
+a {
+    /* text-decoration: none; */
+}
+
+.body {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.topNav ul li {
+    font-size: 1.4rem;
+    padding: 10px;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.topNav li i {
+    float: right;
+}
+
+.sales li {
+    display: inline-block;
+    /* padding: 10px; */
+}
+
+.sales li i {
+    padding-left: 25px;
+}
+
+.new li,
+.up ul li {
+    display: inline-block;
+}
+
+.sky {
+    padding-left: 5px;
+    color: skyblue;
+}
+
+.orange {
+    padding-left: 5px;
+    color: orange;
+}
+
+.purple {
+    padding-left: 5px;
+    color: purple;
+}
+
+.outlineBorder {
+    border: .01rem solid #c5c5c5;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.whiteBacground {
+    background: #f8f9fac9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.whiteBacground li {
+    display: inline-block;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatRight li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.addDeal {
+    padding: 15px;
+}
+
+.addDeal a {
+    color: forestgreen;
+}
+
+.btn {
+    background: #666666;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
